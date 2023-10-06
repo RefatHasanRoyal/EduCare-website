@@ -103,7 +103,10 @@ body {
         display: none;
     }
     .course-card {
-        width: 100%;
+        width: 425px;
+    }
+    .card-img {
+        height: 205px;
     }
 }
 
