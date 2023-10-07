@@ -55,7 +55,9 @@ body {
 .course-card {
     width: 540px;
 }
-
+.course-card P {
+    font-size: 14px;
+}
 .price {
     color: #289BDE;
     font-size: 18px;
@@ -71,6 +73,9 @@ body {
     margin-top: 130px;
     background: #F4FAFD;
 }
+.elearning p {
+    font-size: 14px;
+}
 .elearning-img , .elearning-content {
     width: 50%;
 }
@@ -80,7 +85,24 @@ body {
     grid-template-columns: repeat(3, 1fr);
 }
 
+/* ready to join */
 
+.ready-to-join {
+    background-color: #289BDE; 
+}
+.join-content p {
+    font-size: 14px;
+}
+.join-reg-btn > button {
+    color: #289BDE;
+    background: white;
+    border: none;
+}
+.join-reg-btn > button:hover {
+    background-color: #289BDE;
+    color: white;
+    outline: 1px solid white;
+}
 /* Media queries for mobile*/
 
 @media only screen and (max-width: 576px) {
@@ -110,6 +132,9 @@ body {
     }
     .statistics {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .ready-to-join {
+        text-align: center;
     }
 }
 
@@ -145,6 +170,9 @@ body {
     .statistics {
         grid-template-columns: repeat(2, 1fr);
     }
+    .ready-to-join {
+        text-align: center;
+    }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 992px) {
@@ -168,6 +196,9 @@ body {
     }
    .elearning-content {
         width: 70%;
+    }
+    .ready-to-join {
+        text-align: center;
     }
 }
 
