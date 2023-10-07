@@ -123,6 +123,10 @@ body {
     height: 45px;
 }
 
+/* FAQ section */
+.accordion {
+    width: 70%;
+}
 
 /* Media queries for mobile*/
 
@@ -159,6 +163,9 @@ body {
     }
     .feedback {
         flex-wrap: wrap;
+    }
+    .accordion {
+        width: 100%;
     }
 }
 
@@ -200,6 +207,9 @@ body {
     .feedback {
         flex-wrap: wrap;
     }
+    .accordion {
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 992px) {
@@ -226,6 +236,9 @@ body {
     }
     .ready-to-join {
         text-align: center;
+    }
+    .accordion {
+        width: 100%;
     }
 }
 
