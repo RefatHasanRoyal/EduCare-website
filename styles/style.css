@@ -114,6 +114,16 @@ body {
     font-size: 12px;
 }
 
+/* Students feedback */
+.feedback p, h5 {
+    font-size: 14px;
+}
+.comma-img > img {
+    width: 55px;
+    height: 45px;
+}
+
+
 /* Media queries for mobile*/
 
 @media only screen and (max-width: 576px) {
@@ -146,6 +156,9 @@ body {
     }
     .ready-to-join {
         text-align: center;
+    }
+    .feedback {
+        flex-wrap: wrap;
     }
 }
 
@@ -183,6 +196,9 @@ body {
     }
     .ready-to-join {
         text-align: center;
+    }
+    .feedback {
+        flex-wrap: wrap;
     }
 }
 
