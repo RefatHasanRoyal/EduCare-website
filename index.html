@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
     <!-- Font Awesome link -->
-    <script src="https://kit.fontawesome.com/ddc94e5353.js" crossorigin="anonymous"></script>    
+    <script src="https://kit.fontawesome.com/ddc94e5353.js" crossorigin="anonymous"></script>
     <!-- Custom CSS link -->
     <link rel="stylesheet" href="./styles/style.css">
 </head>
@@ -266,7 +266,8 @@
         <!-- ready to join starts -->
 
         <section class="container mt-5 ">
-            <div class="ready-to-join text-white d-flex flex-wrap justify-content-around  align-items-center p-5 rounded ">
+            <div
+                class="ready-to-join text-white d-flex flex-wrap justify-content-around  align-items-center p-5 rounded ">
                 <div class="join-content">
                     <h1>Ready to join?</h1>
                     <p>It is a long established fact that a reader will be distracted by the.<br>
@@ -274,7 +275,30 @@
                     </p>
                 </div>
                 <div class="join-reg-btn d-inline-block rounded">
-                    <button class="btn btn-info fw-bold px-4 py-3">Register Now</button>
+                    <!-- Button trigger modal -->
+                    <button class="btn btn-info fw-bold px-4 py-3" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop">Register Now</button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5 text-black " id="staticBackdropLabel">Thanks for choosing eduCare.</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p class="text-black ">Get 25%OFF using coupon code "GET25".</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Understood</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -283,58 +307,60 @@
 
         <!-- successfull students starts -->
 
-         <section class="container mt-5">
+        <section class="container mt-5">
             <h1 class="fw-bold text-center pt-5 pb-3 ">Meet Our Successfull <br> Students</h1>
-            <p class="text-center pb-4 ">It is a long established fact that a reader will be distracted by the <br> readable content of a page when looking at its layout.
+            <p class="text-center pb-4 ">It is a long established fact that a reader will be distracted by the <br>
+                readable content of a page when looking at its layout.
             </p>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
                 <div class="col">
-                  <div class="card h-100 student-card">
-                    <img src="./images/student/student-1.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Awlad Hossain</h5>
-                      <p class="card-text">UI UX Designer</p>
+                    <div class="card h-100 student-card">
+                        <img src="./images/student/student-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Awlad Hossain</h5>
+                            <p class="card-text">UI UX Designer</p>
+                        </div>
                     </div>
-                  </div>
                 </div>
                 <div class="col">
-                  <div class="card h-100 student-card">
-                    <img src="./images/student/student-2.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Jannatul Islam</h5>
-                      <p class="card-text">Motion Designer</p>
+                    <div class="card h-100 student-card">
+                        <img src="./images/student/student-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Jannatul Islam</h5>
+                            <p class="card-text">Motion Designer</p>
+                        </div>
                     </div>
-                  </div>
                 </div>
                 <div class="col">
-                  <div class="card h-100 student-card">
-                    <img src="./images/student/student-3.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Imran Hossain</h5>
-                      <p class="card-text">Graphic Designer</p>
+                    <div class="card h-100 student-card">
+                        <img src="./images/student/student-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Imran Hossain</h5>
+                            <p class="card-text">Graphic Designer</p>
+                        </div>
                     </div>
-                  </div>
                 </div>
                 <div class="col">
-                  <div class="card h-100 student-card">
-                    <img src="./images/student/student-4.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Nishi Akter</h5>
-                      <p class="card-text">Web Developer</p>
+                    <div class="card h-100 student-card">
+                        <img src="./images/student/student-4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Nishi Akter</h5>
+                            <p class="card-text">Web Developer</p>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
-              <button class="btn btn-primary fw-semibold  px-4 py-2 d-block mt-4 mx-auto ">View All</button>
-         </section>   
+            </div>
+            <button class="btn btn-primary fw-semibold  px-4 py-2 d-block mt-4 mx-auto ">View All</button>
+        </section>
 
         <!-- successfull students ends -->
 
         <!-- students feedback starts -->
 
-         <section class="container mt-5">
+        <section class="container mt-5">
             <h1 class="fw-bold text-center pt-5 pb-3 ">Some Students Feedback</h1>
-            <p class="text-center pb-4 ">It is a long established fact that a reader will be distracted by the <br> readable content of a page when looking at its layout.
+            <p class="text-center pb-4 ">It is a long established fact that a reader will be distracted by the <br>
+                readable content of a page when looking at its layout.
             </p>
             <div class="d-flex gap-3 feedback">
                 <div class="border rounded p-4">
@@ -348,9 +374,9 @@
                             <i class="fa-regular fa-star text-warning "></i>
                         </p>
                     </div>
-                    <p class="pt-4">There are many variations of passages of Lorem Ipsum available, but 
-                        the majority have suffered alteration in some form, by injected 
-                        humour, or randomised words which don't look even slightly 
+                    <p class="pt-4">There are many variations of passages of Lorem Ipsum available, but
+                        the majority have suffered alteration in some form, by injected
+                        humour, or randomised words which don't look even slightly
                         believable. If you are going to use a passage of Lorem.
                     </p>
                     <div class="d-flex gap-3  align-items-start  ">
@@ -372,9 +398,9 @@
                             <i class="fa-regular fa-star text-warning "></i>
                         </p>
                     </div>
-                    <p class="pt-4">There are many variations of passages of Lorem Ipsum available, but 
-                        the majority have suffered alteration in some form, by injected 
-                        humour, or randomised words which don't look even slightly 
+                    <p class="pt-4">There are many variations of passages of Lorem Ipsum available, but
+                        the majority have suffered alteration in some form, by injected
+                        humour, or randomised words which don't look even slightly
                         believable. If you are going to use a passage of Lorem.
                     </p>
                     <div class="d-flex gap-3  align-items-start ">
@@ -387,7 +413,7 @@
                 </div>
             </div>
             <button class="btn btn-primary fw-semibold  px-4 py-2 d-block mt-4 mx-auto ">View All</button>
-         </section>
+        </section>
 
         <!-- students feedback ends -->
 
@@ -395,45 +421,86 @@
 
         <section class="container mt-5">
             <h1 class="fw-bold text-center pt-5 pb-3 ">Frequently Asked Questions</h1>
-            <p class="text-center pb-4 ">It is a long established fact that a reader will be distracted by the <br> readable content of a page when looking at its layout.</p>
+            <p class="text-center pb-4 ">It is a long established fact that a reader will be distracted by the <br>
+                readable content of a page when looking at its layout.</p>
             <div class="accordion mx-auto " id="accordionPanelsStayOpenExample">
                 <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                      Accordion Item #1
-                    </button>
-                  </h2>
-                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
-                    <div class="accordion-body">
-                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    <h2 class="accordion-header">
+                        <button class="accordion-button fw-semibold " type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                            aria-controls="panelsStayOpen-collapseOne">
+                            Accordion Item #1
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                        <div class="accordion-body">
+                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
                     </div>
-                  </div>
                 </div>
                 <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                      Accordion Item #2
-                    </button>
-                  </h2>
-                  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
-                    <div class="accordion-body">
-                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwo">
+                            Accordion Item #2
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until
+                            the collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
                     </div>
-                  </div>
                 </div>
                 <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                      Accordion Item #3
-                    </button>
-                  </h2>
-                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
-                    <div class="accordion-body">
-                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThree">
+                            Accordion Item #3
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFour">
+                            Accordion Item #4
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <!-- FAQ ends -->

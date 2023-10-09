@@ -256,13 +256,16 @@ footer p {
         width: 100%;
     }
     .elearning-img > img {
-        height: 475px;
+        height: 585px;
     }
     .elearning-img {
-        width: 30%;
+        width: 45%;
     }
    .elearning-content {
-        width: 70%;
+        width: 55%;
+    }
+    .statistics {
+        grid-template-columns: repeat(2, 1fr);
     }
     .ready-to-join {
         text-align: center;
